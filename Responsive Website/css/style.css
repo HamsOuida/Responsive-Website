@@ -1,0 +1,36 @@
+@font-face {
+    font-family: latothin;
+    src: url(../fonts/Lato-Thin.ttf);
+}
+@font-face {
+    font-family: latolight;
+    src: url(../fonts/Lato-Light.ttf);
+}
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #747784;
+}
+h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+h2 {
+    color: #bdc1d0;
+}
+.text-right {
+    margin-top: 20px;
+}
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr {
+    border-bottom: 2px solid #747784;
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    h3,
+    p {
+        text-align: left;
+    }
+}
